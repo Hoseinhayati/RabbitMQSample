@@ -20,7 +20,6 @@ namespace RabbitMQ.Consumer
             {
                 try
                 {
-                    // Perform database operations here using context.Message properties
                     var order = new Order
                     {
                         Name = context.Message.Name,
